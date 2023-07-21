@@ -4,7 +4,7 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/include/**",
-                "C:/dxlib"
+                "C:/DxLib/3.24c"
             ],
             "defines": [
                 "_DEBUG",

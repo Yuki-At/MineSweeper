@@ -12,7 +12,7 @@ CXXFLAGS = -std=c++20 \
            -Wall \
            -Wextra \
            -I./include \
-           -IC:/dxlib
+           -IC:/DxLib/3.24c
 CPPFLAGS = -D_UNICODE \
            -DUNICODE \
            -D_WIN32 \
@@ -31,7 +31,7 @@ endif
 
 LDFLAGS = -static \
           -mwindows \
-          -LC:/dxlib
+          -LC:/DxLib/3.24c
 LDLIBS = -lDxLibW \
          -lDxUseCLibW \
          -lDxDrawFunc \
